@@ -14,5 +14,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: docs/_build/html
   target_branch: gh-pages
+  email: "travis-deploy-github-pages-deploy@travis-ci.org"
   on:
     branch: master
